@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mateusz\\Desktop\\CS_OOP\\CS_OOP\\OOP_Pogramming\\OOP_Pogramming\\OOP_Pogramming.csproj",
+      "projectUniqueName": "C:\\Users\\Mateusz\\Source\\Repos\\CS_OOP\\OOP_Pogramming\\OOP_Pogramming\\OOP_Pogramming.csproj",
       "projectName": "OOP_Pogramming",
-      "projectPath": "C:\\Users\\Mateusz\\Desktop\\CS_OOP\\CS_OOP\\OOP_Pogramming\\OOP_Pogramming\\OOP_Pogramming.csproj",
+      "projectPath": "C:\\Users\\Mateusz\\Source\\Repos\\CS_OOP\\OOP_Pogramming\\OOP_Pogramming\\OOP_Pogramming.csproj",
       "packagesPath": "C:\\Users\\Mateusz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mateusz\\Desktop\\CS_OOP\\CS_OOP\\OOP_Pogramming\\OOP_Pogramming\\obj\\",
+      "outputPath": "C:\\Users\\Mateusz\\Source\\Repos\\CS_OOP\\OOP_Pogramming\\OOP_Pogramming\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mateusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
