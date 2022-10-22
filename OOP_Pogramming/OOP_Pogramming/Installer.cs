@@ -55,5 +55,19 @@ namespace OOP_Pogramming
             Console.WriteLine($"Animals in our zoo in this moment: ");
             zoo.DisplayAnimals();
         }
+        public static void VehicleTask()
+        {
+            Bike Giant = new Bike(200, "Wheely", "Red", "Yamuha");
+
+            Giant.Parameters();
+            Giant.Condition();
+            Giant.DisplayWheels();
+
+            Car Ford = new Car(2014, "Fordy", "Blue", "Arrela", 250);
+
+            Ford.Parameters();
+            Ford.Condition();
+            Ford.Drive();
+        }
     }
 }
