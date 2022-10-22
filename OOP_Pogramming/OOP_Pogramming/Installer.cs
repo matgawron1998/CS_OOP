@@ -88,5 +88,24 @@ namespace OOP_Pogramming
             leesin.Tempest(50);
             leesin.DragonsRage(0);
         }
+        public static void PositionTask()
+        {
+            Position HumanPosition = new Position(10, 10, 10);
+            Position ShipPosition = new Position(4, 5, 6);
+            Position Offset = new Position("X", 3);
+
+            HumanPosition.DisplayPosition();
+
+            ShipPosition.DisplayPosition();
+
+            float dis = HumanPosition.CalculateDistance(ShipPosition);
+            HumanPosition.DisplayDistance(dis);
+
+            Offset.ChangePosition(HumanPosition);
+            Offset.ChangePosition(ShipPosition);
+
+            HumanPosition.DisplayPosition();
+            ShipPosition.DisplayPosition();
+        }
     }
 }
