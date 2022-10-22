@@ -107,5 +107,19 @@ namespace OOP_Pogramming
             HumanPosition.DisplayPosition();
             ShipPosition.DisplayPosition();
         }
+        public static void BankTask()
+        {
+            Bank bank = new Bank("ING");
+
+            bank.AddClient("Mateusz", "Gawron", "pass", bank);
+            bank.LoginClient("1234", bank.GetAccount(0));
+            bank.LoginClient("pass", bank.GetAccount(0));
+            bank.State(bank.GetAccount(0));
+            bank.Deposit(150, bank.GetAccount(0));
+            bank.State(bank.GetAccount(0));
+            bank.WithDrawal(100, bank.GetAccount(0));
+            bank.State(bank.GetAccount(0));
+            bank.RemoveClient(bank.GetAccount(0));
+        }
     }
 }
