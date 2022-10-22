@@ -69,5 +69,24 @@ namespace OOP_Pogramming
             Ford.Condition();
             Ford.Drive();
         }
+        public static void DravenTask()
+        {
+            Draven draven = new Draven(29, 60, 330, 574, 400, "Draven", "mana");
+
+            draven.SpinningAxe(45);
+            draven.StandAside(70);
+            draven.BloodRush(40);
+            draven.WhirlingDeath(100);
+            draven.ResourcePotion();
+        }
+        public static void LeeSinTask()
+        {
+            LeeSin leesin = new LeeSin(33, 70, 345, 575, 200, "Lee Sin", "energy");
+
+            leesin.SonicWave(50);
+            leesin.Safeguard(50);
+            leesin.Tempest(50);
+            leesin.DragonsRage(0);
+        }
     }
 }
