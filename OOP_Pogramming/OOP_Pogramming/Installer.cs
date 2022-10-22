@@ -121,5 +121,19 @@ namespace OOP_Pogramming
             bank.State(bank.GetAccount(0));
             bank.RemoveClient(bank.GetAccount(0));
         }
+        public static void BiggerVehicleTask()
+        {
+            Ford mustang = new Ford(2014, "Fordy", "Blue", "Arrela", 250, "Mustang");
+            mustang.Parameters();
+            mustang.Condition();
+            mustang.Drive();
+            mustang.FordFans();
+
+            Porshe gt = new Porshe(2015, "Porshy", "Grey", "Brandy", 240, "GT");
+            gt.Parameters();
+            gt.Condition();
+            gt.Drive();
+            gt.PorsheClub();
+        }
     }
 }
